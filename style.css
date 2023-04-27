@@ -1,0 +1,92 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+#navbartop{
+background-color: gold;
+border: 15px gold inset;
+color: #000;
+font-family: 'Corinthia', cursive;
+text-align: center;
+  
+  padding: 0px;
+ 
+  font-size: 35px;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    img {
+      max-width: 400%;
+      max-height: 400%;
+      
+    }
+
+    .text {
+      font-size: 25px;
+      padding-left: 0%;
+      
+    }
+iframe{
+  display: block;
+  border-image: 50px;
+  border-color: black;
+  margin-left: 50px;
+  margin-right: auto;
+  width:800px;
+  height: 500px;
+  border: 15px gold inset;
+  
+}
+body{
+  background-color: gray;
+}
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+
+h2{
+    
+    padding-left: 15px;
+  padding-top: -10px;
+  padding-right: 30px;
+  
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+  margin: 20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section1{
+  text-align: center;
+    border: 10px gold inset;
+    margin:5px;
+  width: 550px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section2{
+   text-align: center;
+    border: 10px gold inset;
+    margin:5px;
+  width: 675px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.section3{
+  text-align: center;
+    border: 10px gold inset;
+    margin:5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.picture{
+  width: 50px;
+}
+.donate{
+  text-align: center;
+}
